@@ -35,7 +35,7 @@ const List = ({ list, handleClick }) => {
             <span className={done.includes(i) ? "done" : ""}>
               {el}
             </span>
-            <button className="deleteButton" onClick={(e) => handleDelete(e, i)}><span>X</span></button>
+            <button className="deleteButton" onClick={(e) => handleDelete(e, i)}><span></span></button>
           </li>
         ))}
       </ul>
